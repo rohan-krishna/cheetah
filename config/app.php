@@ -172,6 +172,7 @@ return [
         Spatie\Activitylog\ActivitylogServiceProvider::class,
         Spatie\Backup\BackupServiceProvider::class,
         Spatie\UptimeMonitor\UptimeMonitorServiceProvider::class,
+        \SocialiteProviders\Manager\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -231,6 +232,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Alert' => UxWeb\SweetAlert\SweetAlert::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
     ],
 
 ];
